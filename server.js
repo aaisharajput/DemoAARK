@@ -8,10 +8,12 @@ const __dirname = dirname(__filename);
 const app = express();
 const port =3000;
  
-app.use(express.static('./View/dist'));
 app.get('/',(req,res)=>{
   res.send("welcome to aark server")
 })
+
+app.use(express.static('./View/dist'));
+
 app.get('*', (req, res) => {
     res.sendFile(resolve(__dirname,'View', 'dist', 'index.html'));
   });
