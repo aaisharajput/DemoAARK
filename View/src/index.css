@@ -1,0 +1,11 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.canvas{
+    display: block;
+    width: 800px;
+    height: 700px; 
+    touch-action: none;
+}
