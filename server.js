@@ -14,7 +14,7 @@ app.get('/',(req,res)=>{
 
 app.use(express.static('./View/dist'));
 
-app.get('/index', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(resolve(__dirname,'View', 'dist', 'index.html'));
   });
 
