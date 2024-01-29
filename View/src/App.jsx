@@ -1,13 +1,7 @@
-// import { Canvas } from '@react-three/fiber'
-import React from 'react'
-import Exp from './component/exp.jsx'
-import './index.css'
+import CanvasCube from "./component/cube" 
 function App() {
   return (
-  //   <Canvas class="canvas">
-  //   <Exp/>
-  // </Canvas>
-  <Exp />
+    <CanvasCube/>
   )
 }
 
