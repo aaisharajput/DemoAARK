@@ -11,6 +11,7 @@ const port =3000;
 app.get('/',(req,res)=>{
   res.send("welcome to aark server")
 })
+app.use(express.static('./media'));
 
 app.use(express.static('./View/dist'));
 

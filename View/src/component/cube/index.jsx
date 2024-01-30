@@ -4,7 +4,7 @@ import './index.css'
 
 function CanvasCube() {
   return (
-    <Canvas class="canvas">
+    <Canvas className="canvas">
     <Exp/>
   </Canvas>
   )
