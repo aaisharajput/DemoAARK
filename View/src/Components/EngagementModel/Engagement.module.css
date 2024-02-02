@@ -1,0 +1,11 @@
+.aboutimg img {
+  width: 100%;
+}
+
+.section.aboutsec {
+  background: #edeef0;
+}
+
+.aboutsec p{
+  text-align: justify;
+}
